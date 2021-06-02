@@ -1,4 +1,4 @@
-import LetterCounterService from '@application/services/LetterCounterService';
+import { LetterCounterService } from '@application/services/LetterCounterService';
 import { ILettersViewModel, IPhraseViewModel } from '@presentation/viewModels';
 import { LetterHandler } from './handlers';
 

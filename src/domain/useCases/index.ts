@@ -1,1 +1,1 @@
-export * from './ILetterCounter'
+export * from './ILetterCounter';

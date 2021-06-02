@@ -14,7 +14,7 @@
     "removeComments": true,
     "sourceMap": true,
     "target": "ES2019",
-    "outDir": "lib",
+    "outDir": "dist",
     "strict": true,
     "noImplicitAny": true
   },
