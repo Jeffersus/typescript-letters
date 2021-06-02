@@ -16,6 +16,14 @@ export class LetterCounterService implements ILetterCounter {
       return acc;
     }, letterCounter);
 
-    return count;
+    const duplicates: ILetters = {};
+
+    return Object.entries(count).reduce((acc, [key, value]) => {
+      if (value >= 2) {
+        acc[key] = value;
+      }
+
+      return acc;
+    }, duplicates);
   }
 }
